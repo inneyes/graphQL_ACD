@@ -1,0 +1,132 @@
+{
+  "GetInvoice": {
+    "TypeCode": "DN",
+    "TypeNameTh": "Debit Note",
+    "TypeNameEn": "Debit Note",
+    "No": "DN-1718869789298",
+    "Date": "2024-06-20T07:49:49.298Z",
+    "Seller": {
+      "ID": " ",
+      "Name": "getInvoice company limited Krungkasem Branch",
+      "TaxID": 1783911564599,
+      "TaxIDType": " ",
+      "Branch": 0,
+      "BuildingNo": 112,
+      "BuildingName": " ",
+      "Street": "Adam 77",
+      "Line1": " ",
+      "Line2": " ",
+      "Line3": " ",
+      "Line4": " ",
+      "District": "Bang Phai",
+      "City": "Bang Khae District",
+      "Province": "Bangkok",
+      "PostalCode": 10160,
+      "CountryCode": "TH",
+      "CountryName": "Thailand",
+      "Telephone": 933651661,
+      "Fax": " ",
+      "Contact": "Adam",
+      "Department": " ",
+      "Email": " "
+    },
+    "Buyer": {
+      "ID": 1,
+      "Name": "WRC company",
+      "TaxID": " ",
+      "TaxIDType": " ",
+      "Branch": " ",
+      "BuildingNo": 85,
+      "BuildingName": " ",
+      "Street": "Connell 57",
+      "Line1": " ",
+      "Line2": " ",
+      "Line3": " ",
+      "Line4": " ",
+      "District": "Khlong Toei Subdistrict",
+      "City": "Khlong Toei District",
+      "Province": "Bangkok",
+      "PostalCode": 10110,
+      "CountryCode": "TH",
+      "CountryName": "Thailand",
+      "Telephone": " ",
+      "Fax": " ",
+      "Contact": " ",
+      "Department": " ",
+      "Email": " "
+    },
+    "Purpose": "Price Adjustment",
+    "References": {
+      "TypeCode": "T03",
+      "No": "RCT000001",
+      "Date": "13/05/2024"
+    },
+    "OriginalAmount": 1178.94,
+    "CorrectAmount": 20000,
+    "DifferenceAmount": 18821.06,
+    "CurrencyCode": "USD",
+    "Currency": "US Dollar",
+    "LineItems": {
+      "Item": [
+        {
+          "No": 1,
+          "Id": 1,
+          "Name": "Acme Smartwatch",
+          "Description": "This document is issued by electronic tax invoice.",
+          "Quantity": 1,
+          "Unit": "Unit",
+          "Price": 199.99,
+          "Allowances": " ",
+          "Amount": 199.99,
+          "Tax": {
+            "Code": "VAT",
+            "Rate": 7,
+            "Amount": 14
+          },
+          "TaxAmount": 14,
+          "Total": 213.99
+        },
+        {
+          "No": 2,
+          "Id": 2,
+          "Name": "Megabyte Laptop",
+          "Description": "This document is issued by electronic tax invoice.",
+          "Quantity": 1,
+          "Unit": "Unit",
+          "Price": 899,
+          "Allowances": " ",
+          "Amount": 899,
+          "Tax": {
+            "Code": "VAT",
+            "Rate": 7,
+            "Amount": 62.93
+          },
+          "TaxAmount": 62.93,
+          "Total": 961.93
+        },
+        {
+          "No": 3,
+          "Id": 3,
+          "Name": "Volt Wireless Earbuds",
+          "Description": "This document is issued by electronic tax invoice.",
+          "Quantity": 1,
+          "Unit": "Unit",
+          "Price": 79.95,
+          "Allowances": " ",
+          "Amount": 79.95,
+          "Tax": {
+            "Code": "VAT",
+            "Rate": 7,
+            "Amount": 5.6
+          },
+          "TaxAmount": 5.6,
+          "Total": 85.55
+        }
+      ]
+    },
+    "TotalQuantity": 3,
+    "Amount": 20000,
+    "TaxAmount": 1400,
+    "Total": 21400
+  }
+}

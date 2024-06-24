@@ -1,0 +1,166 @@
+{
+    "GetInvoice": {
+        "TypeCode": 380,
+        "TypeNameTh": "ใบสั่งซื้อ",
+        "TypeNameEn": "Purchase Order",
+        "No": "PO000001",
+        "Date": "13/05/2024",
+        "Seller": {
+            "ID": " ",
+            "Name": "getInvoice company limited Krungkasem Branch",
+            "TaxID": 1783911564599,
+            "TaxIDType": " ",
+            "Branch": 0,
+            "BuildingNo": 112,
+            "BuildingName": " ",
+            "Street": "Adam 77",
+            "Line1": " ",
+            "Line2": " ",
+            "Line3": " ",
+            "Line4": " ",
+            "District": "แขวงบางไผ่",
+            "City": "เขตบางแค",
+            "Province": "กรุงเทพมหานคร",
+            "PostalCode": 10160,
+            "CountryCode": "TH",
+            "CountryName": "Thailand",
+            "Telephone": 933651661,
+            "Fax": " ",
+            "Contact": "Adam",
+            "Department": " ",
+            "Email": " "
+        },
+        "Buyer": {
+            "ID": 1,
+            "Name": "WRC company",
+            "TaxID": " ",
+            "TaxIDType": " ",
+            "Branch": " ",
+            "BuildingNo": 85,
+            "BuildingName": " ",
+            "Street": "Connell 57",
+            "Line1": " ",
+            "Line2": " ",
+            "Line3": " ",
+            "Line4": " ",
+            "District": "แขวงคลองเตย",
+            "City": "เขตคลองเตย",
+            "Province": "กรุงเทพมหานคร",
+            "PostalCode": 10110,
+            "CountryCode": "TH",
+            "CountryName": "Thailand",
+            "Telephone": " ",
+            "Fax": " ",
+            "Contact": " ",
+            "Department": " ",
+            "Email": " "
+        },
+        "DueDate": " ",
+        "PurposeCode": " ",
+        "Purpose": " ",
+        "References": " ",
+        "IssueToBranch": 0,
+        "Remark": "use for PO",
+        "CurrencyCode": "THB",
+        "Currency": "Baht",
+        "LineItems": {
+            "Item": [{
+                    "No": 1,
+                    "Id": 1,
+                    "Name": "Acme Smartwatch",
+                    "Description": " ",
+                    "Quantity": 1,
+                    "Unit": "Unit",
+                    "Price": 199.99,
+                    "Allowances": " ",
+                    "Amount": 199.99,
+                    "Tax": {
+                        "Code": "FRE",
+                        "Rate": 0,
+                        "Amount": 0
+                    },
+                    "TaxAmount": 0,
+                    "Total": 199.99
+                },
+                {
+                    "No": 2,
+                    "Id": 2,
+                    "Name": "Megabyte Laptop",
+                    "Description": " ",
+                    "Quantity": 1,
+                    "Unit": "Unit",
+                    "Price": 899,
+                    "Allowances": " ",
+                    "Amount": 899,
+                    "Tax": {
+                        "Code": "FRE",
+                        "Rate": 0,
+                        "Amount": 0
+                    },
+                    "TaxAmount": 0,
+                    "Total": 899
+                },
+                {
+                    "No": 3,
+                    "Id": 3,
+                    "Name": "Volt Wireless Earbuds",
+                    "Description": " ",
+                    "Quantity": 1,
+                    "Unit": "Unit",
+                    "Price": 79.95,
+                    "Allowances": " ",
+                    "Amount": 79.95,
+                    "Tax": {
+                        "Code": "FRE",
+                        "Rate": 0,
+                        "Amount": 0
+                    },
+                    "TaxAmount": 0,
+                    "Total": 79.95
+                }
+            ]
+        },
+        "TotalQuantity": 3,
+        "Quantity": 3,
+        "Amount": 1178.94,
+        "ChargeTotal": 0,
+        "AllowanceTotal": 0,
+        "TaxBasisAmount": 0,
+        "NonVat": 1178.94,
+        "TaxAmount": 0,
+        "Taxes": {
+            "Tax": {
+                "Code": "FRE",
+                "Rate": 0,
+                "Amount": 0
+            }
+        },
+        "Total": 1178.94,
+        "Summary": {
+            "Data": [{
+                    "Label": "รวมเป็นเงิน",
+                    "Amount": 1178.94
+                },
+                {
+                    "Label": "FRE 0%",
+                    "Amount": 0
+                },
+                {
+                    "Label": "จำนวนเงินรวมทั้งสิ้น",
+                    "Amount": 1178.94
+                }
+            ]
+        },
+        "TotalEn": "One Thousand One Hundred Seventy Eight Point Nine Four",
+        "TotalTh": "หนึ่งพันหนึ่งร้อยเจ็ดสิบแปดบาท เก้าสิบสี่สตางค์",
+        "Settings": {
+            "TaxInclusive": false,
+            "InlineTax": true,
+            "InlineAllowance": true,
+            "CumulativeAllowance": true
+        },
+        "Manager": "Dulland",
+        "Position": "Officer"
+    },
+    "$schema": "http://json-schema.org/draft/2019-09/schema"
+}
